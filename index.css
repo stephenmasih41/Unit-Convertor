@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+main {
+  background-color: #6943ff;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+  padding: 15px;
+}
+input {
+  display: block;
+  margin: 20px auto;
+  width: 136px;
+  height: 75px;
+  border: 1px solid #b295ff;
+  color: #fff;
+  background-color: #6943ff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+button {
+  width: 136px;
+  margin: 30px 30px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 0 1 2 #000;
+}
+
+#conversions {
+  margin-top: 15px;
+}
+
+#conversions div {
+  margin: 20px 20px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+#conversions div p {
+  font-size: large;
+  color: #5a537b;
+  font-weight: bold;
+}
+
+#meter-feet,
+#liter-gallon,
+#kilogram-pound {
+  color: #353535;
+  font-size: medium;
+  font-weight: 200;
+}
